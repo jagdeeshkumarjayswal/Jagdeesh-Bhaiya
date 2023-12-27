@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color:#1f242d;
+    --second-bg-color:#fff;
+    --main-color:#0ef;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color:var( --text-color);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    margin-right: 100px;
+    color: rgb(88, 198, 161);
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    justify-content: space-between;
+    transition: .3s;
+
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0ef;
+}
+
+#menu-icon {
+    font-size: 3.5rem;
+    color: #0ef;
+    display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+/* home section */
+
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-containt h3{
+    font-size: 3.2rem;
+    font-family: 700;
+    color: #fff;
+}
+
+.home-containt h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color:#fff;
+    line-height: 1.8;
+}
+ 
+.home-img img{
+    width: 35vw;
+    margin-left:100px;
+    border-radius: 50%;
+    border: #0ef;
+    box-shadow:0 0 15px aqua;
+
+}
+
+ 
+.home-containt span{
+    color: #0ef;
+}
+.home-containt p{
+    font-size: 1.8rem;
+    color: rgb(166, 189, 191);
+    
+}
+
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid aqua;
+    border-radius: 50%;
+    font-size:2rem;
+    color: #0ef;
+    margin: 3rem 1.5rem 3rem  0;
+    transition: .3s;
+}
+
+.social-media a:hover{
+    background: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0ef;
+    
+}
+
+ .btn {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     height:40px;
+     width: 150px;
+     background: transparent;
+     border: 2px solid #0ef;
+     border-radius: 20px;
+     text-decoration: none;
+     font-size: 18px;
+     transition: .5s ease;
+     color:#0ef;
+     font-weight: 700;
+     margin-left:25px;
+     margin-top: 15px;
+
+ }
+
+ .btn:hover {
+     background: #0ef;
+     color: #1f242d;
+     box-shadow: 0 0 20px #0ef;
+ }
+
+ /* About section */
+ .about{
+   display: flex ;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   background: #1f242d;
+
+ }
+ .navbar a:hover,
+ .navbar a.active {
+     color: #0ef;
+ }
+
+ .about-img img{
+    width: 35vw;
+    margin-right: 70px;
+    border-radius:40px;
+    box-shadow:0px 5px 20px  #0ef;
+ }
+
+ .heading {
+    text-align: center;
+    font-size: 4.2rem;
+    margin-left:40px ;
+    gap:2rem;
+ }
+
+ .about-containt h2{
+    text-align: left;
+    line-height: 10rem;
+    gap: 40px;
+    margin-left: 20px;
+ }
+ .about-containt h3{
+    font-size: 3.5rem;
+    margin-left: 20px;
+    color: #fff;
+ }
+
+ .about-containt p{
+    font-size:2rem;
+    margin-left:25px;
+    color: rgb(213, 128, 59);
+ }
+
+ .about-containt h2 span{
+    color: #0ef;
+ }
+
+ /* Approach */
+
+ .service{
+    margin-bottom: 5rem;
+ }
+
+.service-containt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.service-containt .service-box{
+    flex: 1 1  30rem;
+    background: #596680;
+    padding: 3rem 2rem  4rem ;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem #0ef;
+    height:40rem;
+    border: .5rem solid #0ef;
+    transition: .5s ease;
+    
+}
+
+.service-containt .service-box:hover{
+    border-color: #0ef;
+    transform: scale(1.02)
+}
+.service-box i{
+    font-size: 7rem;
+    color: #0ef;
+}
+.service-box h3{
+    font-size: 2.1rem;
+}
+
+.service-box p{
+    font-size:1.8rem;
+    margin: 1rem 0 3rem;
+}
+.service-containt h2.span{
+    color: #0ef;
+}
+
+/* portfillo */
+.portgillo-containt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+
+.portfillo{
+    background:#1f242d;
+}
+.portfillo span{
+    color: #0ef;
+}
+ .portfillo-container.portfillo-box {
+     flex: 1 1 30rem;
+     background: #596680;
+     padding: 3rem 2rem 4rem;
+     border-radius: 2rem;
+     text-align: center;
+     border: .2rem #0ef;
+     height: 40rem;
+     border: .5rem solid #0ef;
+     transition: .5s ease;
+     background: #1b58d1;
+
+ }
+
+ .portfillo-containt .portfillo-box:hover {
+     border-color: #0ef;
+     transform: scale(1.02)
+ }
+.portfillo-box i {
+    font-size: 7rem;
+    color: #0ef;
+}
+
+.portfillo-box h3 {
+    font-size: 2.1rem;
+}
+
+.portfillo-box p {
+    font-size: 1.8rem;
+    margin: 1rem 0 3rem;
+}
+
+.portfillo-containt h2.span {
+    color: #0ef;
+}
+
+
+/* contact */
+.contact span{
+    color: #0ef;
+}
+
+#name{
+    height:4rem;
+    width:30rem;
+    border-radius:7px;
+    border-color:#0ef;
+    text-align: center;
+    font-size: 18px;
+    color: #0ef;
+}
+#mobile{
+    height: 4rem;
+    width:30rem;
+    margin-left: 3rem;
+    border-radius: 7px;
+    border-color: #0ef;
+    text-align: center;
+    font-size: 18px;
+    color: #0ef;
+}
+#email{
+    height: 4rem;
+    width: 30rem;
+    margin-top: 2rem;
+    border-radius: 7px;
+    border-color: #0ef;
+    text-align: center;
+    font-size: 18px;
+    color: #0ef;
+}
+.A{
+    font-size: 18px;
+    color: #0ef;
+    
+}
+#Message{
+    height: 30rem;
+    width:80rem;
+    margin-top: 10px;
+    margin-left: 0rem;
+    border-radius: 7px;
+    border-color: #0ef;
+     
+    font-size: 18px;
+    color: #0ef;
+}
+
+ /*Last section */
+ .last{
+    background:black;
+    width: 100%;
+    margin-top:10rem;
+    padding: 0;
+    height:18rem;
+    border-radius: 15px;
+ }
+ .copy{
+    color: #0ef;
+    margin-left:5px;
+     
+ }
+ .last i{
+    font-size: 18px;
+    color: #0ef;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+ }

@@ -1,0 +1,37 @@
+ICONS FOR HTML PAGES:-
+
+2 types of icon system
+
+(i) code for full fill icons- use html code
+
+- <i class=" fa solid fa-(icons name)"></i>
+ icons name like- for user icon:- user 
+  
+(ii) code for blank fill icons-
+
+ <i class=" fa regular fa-(icons name)"></i>
+ icons name like- for user icon:- user 
+
+
+meny icons are following:-
+                       The icon name is same as icon
+means, icon name=icon;
+
+1. user            11.lock               21.instagram
+2.download	   12.linked-in          22.cart
+3.phone		   13.wifi               23.circle-user
+4.book 		   14.twitter            24.google
+5.envelope(email)  15.github             25.download
+6.comment          16.moon               26.cloud
+7. music	   17.globe              27.copyright
+8.file             18.laptop             28.laptop
+9.heart            19.instagram          29.bars
+10.amazon          20.facebook           30.windows
+
+
+------------
+Thanks for
+
+
+ 
+
